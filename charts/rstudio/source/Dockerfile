@@ -11,6 +11,7 @@ RUN /rocker_scripts/install_shiny_server.sh
 RUN apt-get update && apt-get upgrade -y && apt-get install --no-install-recommends -y \
     apt-utils \
     libnss-wrapper \
+    libglpk40 \
     libnode72 \
     libbz2-dev \
     liblzma-dev \
